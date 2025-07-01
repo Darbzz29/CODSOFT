@@ -9,7 +9,7 @@ while True:
     print("3. Remove a task")
     print("4. Exit")
 
-    choice = input("ENter your choice")
+    choice = input("Enter your choice")
 
     if choice == '1':
         if tasks == []:
@@ -29,7 +29,7 @@ while True:
 
     elif choice == '3':
         if len(tasks) == 0:
-            print("Nothing to delete.")
+            print("Nothing to be delete.")
         else:
             number = input("Enter the number of the task to remove: ")
             if number.isdigit():
